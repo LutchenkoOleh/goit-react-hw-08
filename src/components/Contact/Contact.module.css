@@ -1,0 +1,55 @@
+.contactItem {
+  width: 200px;
+  border: 1px solid #111;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactItemWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+}
+
+
+.contactText {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
+
+  border: none;
+  border: 1px solid #111;
+  border-radius: 2px;
+  background-color: rgb(33, 33, 255);
+  color: #ffffff;
+  width: 50px;
+  height: 20px;
+  margin: 0 auto;
+
+}
+
+.button:hover {
+  background-color: rgb(111, 111, 248);
+}
+
+.button:focus {
+  background-color: rgb(111, 111, 248);
+}
+
+.numberSvg {
+  margin-right: 4px;
+  fill: #000;
+}
+
+.nameSvg {
+  fill: #000;
+  margin-right: 4px;
+}

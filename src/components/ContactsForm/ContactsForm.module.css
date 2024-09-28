@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #111;
+  border-radius: 4px;
+}
+
+.formButton {
+  border: none;
+  border: 1px solid #111;
+  border-radius: 2px;
+  background-color: rgb(33, 33, 255);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: rgb(111, 111, 248);
+}
+
+.formButton:focus {
+  background-color: rgb(111, 111, 248);
+}
+
+.formText {
+  border: 1px solid #111;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.formText::placeholder {
+  color: #494848;
+}
+
+.formLabel {
+  margin-bottom: 4px;
+}
+
+.error {
+  color: red;
+}

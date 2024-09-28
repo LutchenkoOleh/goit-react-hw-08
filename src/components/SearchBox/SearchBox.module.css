@@ -1,0 +1,14 @@
+.searchBox {
+  margin-top: 10px;
+
+}
+
+.searchBoxText {
+  margin: 0;
+
+}
+
+.searchBoxInput {
+  border: 1px solid #111;
+  border-radius: 4px;
+}
