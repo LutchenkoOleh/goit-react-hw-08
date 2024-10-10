@@ -4,7 +4,7 @@ import SearchBox from "../../components/SearchBox/SearchBox"
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { selectLoading } from "../../redux/contacts/selectors";
-import { fetchContacts } from "../../redux/contacts/operation";
+import { fetchContacts } from "../../redux/contacts/operations";
 
 export default function ContactsPage() {
 
