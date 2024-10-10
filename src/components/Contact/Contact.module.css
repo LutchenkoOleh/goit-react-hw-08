@@ -1,6 +1,7 @@
 .contactItem {
   width: 200px;
   border: 1px solid #111;
+  border-radius: 6px;
   padding: 4px;
   display: flex;
   justify-content: center;
@@ -25,15 +26,17 @@
 
 .button {
 
-  border: none;
-  border: 1px solid #111;
-  border-radius: 2px;
-  background-color: rgb(33, 33, 255);
-  color: #ffffff;
-  width: 50px;
-  height: 20px;
   margin: 0 auto;
-
+  cursor: pointer;
+  width: 112px;
+  height: 32px;
+  border: none;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 33, 255);
+  color: bisque;
 }
 
 .button:hover {

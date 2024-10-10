@@ -1,14 +1,20 @@
-.searchBox {
-  margin-top: 10px;
-
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0;
 }
 
-.searchBoxText {
-  margin: 0;
-
+.input {
+  width: 280px;
+  margin-bottom: 8px;
+  height: 32px;
+  border: none;
+  border-radius: 14px;
+  padding-left: 16px;
+  background-color: rgba(216, 194, 194, 0.8);
 }
 
-.searchBoxInput {
-  border: 1px solid #111;
-  border-radius: 4px;
+.input:focus-within {
+  border: 2px solid rgb(16, 15, 15);
+  outline: none;
 }
